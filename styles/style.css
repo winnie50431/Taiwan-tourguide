@@ -670,6 +670,7 @@ footer p {
   }
   main section.topic.topic_city div.grid_container {
     overflow: auto;
+    width: 110%;
   }
   main section.topic.topic_city div.grid_container div.cards_map {
     height: 40vw;
@@ -771,6 +772,7 @@ footer p {
   }
   main section.topic.topic_city div.grid_container {
     overflow: auto;
+    width: 110%;
   }
   main section.topic.topic_city div.grid_container div.cards_map {
     height: 30vw;
