@@ -394,7 +394,7 @@ main section.topic div.cards div.card_activity {
   background-color: #fff;
   padding: 1rem;
   margin: 1rem 0;
-  max-width: 522px;
+  width: 400px;
   height: 20vw;
   -webkit-box-flex: 1;
       -ms-flex: 1 1 280px;
@@ -811,7 +811,7 @@ footer p {
     font-size: 0.9rem;
   }
   main section.topic div.cards div.card_activity {
-    max-width: 298px;
+    width: 200px;
     height: 120px;
     -webkit-box-flex: 1;
         -ms-flex: 1 1 200px;

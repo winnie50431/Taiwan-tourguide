@@ -303,7 +303,7 @@ main {
         background-color: $white;
         padding: 1rem;
         margin: 1rem 0;
-        max-width: 522px;
+        width: 400px;
         height: 20vw;
         // overflow: hidden;
         flex: 1 1 280px;
@@ -701,7 +701,7 @@ footer {
           }
         }
         div.card_activity {
-          max-width: 298px;
+          width: 200px;
           height: 120px;
           flex: 1 1 200px;
           p {

@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="zh">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>美食住宿</title>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/style.css" />
+  </head>
+  <body>
+    <!-- 頁首/start -->
+    <header class="header">
+      <!-- 導覽列/start -->
+      <nav>
+        <img class="logo" src="./images/logo.png" alt="Taiwan Tourguide" />
+        <ul class="subnav">
+          <li>
+            <a class="text_primary" href="./index.html">
+              <img src="./images/link (1).png" alt="" />
+              <span>台灣景點</span>
+            </a>
+          </li>
+          <li>
+            <a class="text_secondary" href="./meal.html">
+              <img src="./images/link (2).png" alt="" />
+              <span>美食住宿</span>
+            </a>
+          </li>
+          <li>
+            <a class="text_green" href="./traffic.html">
+              <img src="./images/link (3).png" alt="" />
+              <span>景點交通</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <!-- 導覽列/end -->
+      <!-- 看板/start -->
+      <section class="banner">
+        <div class="img_container">
+          <img src="./images/banner_meal.png" alt="" />
+        </div>
+        <div class="flex_container">
+          <h1>Welcome to <span class="text_primary">Taiwan°</span></h1>
+          <p>台北、台中、台南、屏東、宜蘭……遊遍台灣</p>
+          <form action="">
+            <div class="toolbox">
+              <input
+                type="text"
+                class="input"
+                name="keywords"
+                id="keywords"
+                placeholder="搜尋關鍵字"
+              />
+              <button class="btn btn_primary" id="search">
+                <img src="./images/Icon/search.png" alt="" />
+              </button>
+              <select class="btn" name="" id="typeSelect">
+                <option value="">類別</option>
+                <option value="Restaurant">美食</option>
+                <option value="Hotel">住宿</option>
+              </select>
+              <select class="btn" name="" id="citySelect">
+                <option value="">不分縣市</option>
+              </select>
+              <button class="btn btn_secondary">
+                <img src="./images/Icon/GPS.png" alt="GPS" />
+              </button>
+            </div>
+          </form>
+        </div>
+      </section>
+      <!-- 看板/end -->
+    </header>
+    <!-- 頁首/end -->
+    <main>
+      <!-- 熱門美食/start -->
+      <section class="topic topic_food">
+        <div class="topic_title">
+          <img src="./images/Icon/Rectangle.png" alt="" />
+          <h3>熱門美食</h3>
+        </div>
+        <div class="cards cards_food">
+          <!-- 卡片 -->
+          <div class="card">
+            <div class="img_container">
+              <img
+                src="https://cloud.culture.tw/e_new_upload/task/a66dc343-cd8b-4ee0-a265-8d7fff520c3b/C2_315080000H_080251/ae2be0d6fa0296329b6b982e7f1aeec32de42f14.jpg"
+                alt="正濱漁港懷舊碼頭"
+              />
+            </div>
+            <div class="card_content">
+              <p>正濱漁港懷舊碼頭</p>
+              <div>
+                <i class="text_primary fas fa-map-marker-alt"></i>
+                <span>基隆市中正區</span>
+              </div>
+            </div>
+          </div>
+          <!-- 卡片 -->
+        </div>
+      </section>
+      <!-- 熱門美食/end -->
+
+      <!-- 熱門景點/start -->
+      <section class="topic topic_hotel">
+        <div class="topic_title">
+          <img src="./images/Icon/Rectangle.png" alt="" />
+          <h3>熱門景點</h3>
+        </div>
+        <div class="cards cards_hotel">
+          <div class="card">
+            <div class="img_container">
+              <img
+                src="https://cloud.culture.tw/e_new_upload/task/a66dc343-cd8b-4ee0-a265-8d7fff520c3b/C2_315080000H_080251/ae2be0d6fa0296329b6b982e7f1aeec32de42f14.jpg"
+                alt="正濱漁港懷舊碼頭"
+              />
+            </div>
+            <div class="">
+              <p>正濱漁港懷舊碼頭</p>
+              <div>
+                <i class="text_primary fas fa-map-marker-alt"></i>
+                <span>基隆市中正區</span>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="img_container">
+              <img
+                src="https://cloud.culture.tw/e_new_upload/task/a66dc343-cd8b-4ee0-a265-8d7fff520c3b/C2_315080000H_080251/ae2be0d6fa0296329b6b982e7f1aeec32de42f14.jpg"
+                alt="正濱漁港懷舊碼頭"
+              />
+            </div>
+            <div class="">
+              <p>正濱漁港懷舊碼頭</p>
+              <div>
+                <i class="text_primary fas fa-map-marker-alt"></i>
+                <span>基隆市中正區</span>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="img_container">
+              <img
+                src="https://cloud.culture.tw/e_new_upload/task/a66dc343-cd8b-4ee0-a265-8d7fff520c3b/C2_315080000H_080251/ae2be0d6fa0296329b6b982e7f1aeec32de42f14.jpg"
+                alt="正濱漁港懷舊碼頭"
+              />
+            </div>
+            <div class="">
+              <p>正濱漁港懷舊碼頭</p>
+              <div>
+                <i class="text_primary fas fa-map-marker-alt"></i>
+                <span>基隆市中正區</span>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="img_container">
+              <img
+                src="https://cloud.culture.tw/e_new_upload/task/a66dc343-cd8b-4ee0-a265-8d7fff520c3b/C2_315080000H_080251/ae2be0d6fa0296329b6b982e7f1aeec32de42f14.jpg"
+                alt="正濱漁港懷舊碼頭"
+              />
+            </div>
+            <div class="">
+              <p>正濱漁港懷舊碼頭</p>
+              <div>
+                <i class="text_primary fas fa-map-marker-alt"></i>
+                <span>基隆市中正區</span>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="img_container">
+              <img
+                src="https://cloud.culture.tw/e_new_upload/task/a66dc343-cd8b-4ee0-a265-8d7fff520c3b/C2_315080000H_080251/ae2be0d6fa0296329b6b982e7f1aeec32de42f14.jpg"
+                alt="正濱漁港懷舊碼頭"
+              />
+            </div>
+            <div class="">
+              <p>正濱漁港懷舊碼頭</p>
+              <div>
+                <i class="text_primary fas fa-map-marker-alt"></i>
+                <span>基隆市中正區</span>
+              </div>
+            </div>
+          </div>
+          <div class="card card_end">
+            <div class="img_container">
+              <img
+                src="https://cloud.culture.tw/e_new_upload/task/a66dc343-cd8b-4ee0-a265-8d7fff520c3b/C2_315080000H_080251/ae2be0d6fa0296329b6b982e7f1aeec32de42f14.jpg"
+                alt="正濱漁港懷舊碼頭"
+              />
+            </div>
+            <div class="">
+              <p>正濱漁港懷舊碼頭</p>
+              <div>
+                <i class="text_primary fas fa-map-marker-alt"></i>
+                <span>基隆市中正區</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- 熱門景點/end -->
+    </main>
+  </body>
+  <script
+    type="text/javascript"
+    src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.4/axios.min.js"
+  ></script>
+  <script
+    type="text/javascript"
+    src="https://cdnjs.cloudflare.com/ajax/libs/jsSHA/3.2.0/sha.js"
+  ></script>
+  <script src="./app.js"></script>
+</html>
